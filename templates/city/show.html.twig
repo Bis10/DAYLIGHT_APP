@@ -13,5 +13,7 @@
 
 {% block javascripts %}
 {{ parent() }}
-{{ vite_entry_script_tags('app') }} <!-- Load the React app -->
+{{ vite_entry_script_tags('/frontend/src/main.jsx') }}
+<!-- Load the React app -->
+
 {% endblock %}
