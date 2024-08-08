@@ -1,4 +1,3 @@
-{# templates/city/show.html.twig #}
 
 {% extends 'base.html.twig' %}
 
@@ -13,11 +12,9 @@
 
 {% block javascripts %}
 {{ parent() }}
-<<<<<<< HEAD
+
 {{ vite_entry_script_tags('/frontend/src/main.jsx') }}
 <!-- Load the React app -->
 
-=======
 {{ vite_entry_script_tags('app') }} <!-- Load the React app -->
->>>>>>> origin/main
 {% endblock %}
